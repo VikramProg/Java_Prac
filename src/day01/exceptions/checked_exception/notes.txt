@@ -1,0 +1,3 @@
+Checked Exception: The classes that directly inherit the Throwable class.
+> Checked exceptions are checked at compile-time.
+> For example, IOException, SQLException, etc.

@@ -1,0 +1,11 @@
+#Package file #
+*.xml
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+.idea
+*.iml

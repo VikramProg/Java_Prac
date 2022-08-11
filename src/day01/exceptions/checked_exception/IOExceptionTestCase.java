@@ -1,4 +1,4 @@
-package checked_exception;
+package day01.exceptions.checked_exception;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

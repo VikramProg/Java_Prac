@@ -1,6 +1,6 @@
-package unchecked_exception.class_cast_exception;
+package day01.exceptions.unchecked_exception.class_cast_exception;
 
-public class ChildTest extends ParentTest{
+public class ChildTest extends ParentTest {
     String childName;
     ChildTest(String parentName, String childName) {
         super(parentName);

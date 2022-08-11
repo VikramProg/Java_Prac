@@ -56,12 +56,13 @@ public class JavaUniversityClient {
         try {
 
             //graduate() method if eligible graduate a student by removing that student from students[] array and adding that student to graduatedStudent[] arrayList
-            /* this block demonstrates the student graduation
-            university.getStudents();
+            // this block demonstrates the student graduation
+            //university.getStudents();
             university.graduate(students[0]);
+            university.graduate(students[2]);
             university.getGraduatedStudents();
-            university.getStudents();
-             */
+            //university.getStudents();
+
 
             //enrolCourse() method adds the given course to student courses[] array, maximum 5 are added, adding 6th will result in StudentCourseLimitException
             /* this block demonstrates the student enrolling for given course

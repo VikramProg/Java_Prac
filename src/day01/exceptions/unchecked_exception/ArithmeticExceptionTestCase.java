@@ -1,4 +1,4 @@
-package unchecked_exception;
+package day01.exceptions.unchecked_exception;
 
 import java.util.Scanner;
 

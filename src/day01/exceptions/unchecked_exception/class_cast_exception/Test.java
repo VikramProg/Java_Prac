@@ -1,4 +1,4 @@
-package unchecked_exception.class_cast_exception;
+package day01.exceptions.unchecked_exception.class_cast_exception;
 
 public class Test {
     public static void main(String args[]) {

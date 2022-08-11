@@ -1,0 +1,3 @@
+Unchecked Exception: The classes that inherit the RuntimeException are known as unchecked exceptions.
+> Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+> For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc.

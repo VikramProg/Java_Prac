@@ -1,4 +1,4 @@
-package student_initial.test2;
+package case_study.student_initial.test2;
 
 import java.util.Scanner;
 

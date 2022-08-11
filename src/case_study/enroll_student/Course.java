@@ -1,4 +1,4 @@
-package enroll_student;
+package case_study.enroll_student;
 
 public class Course {
 

@@ -1,4 +1,4 @@
-package checked_exception;
+package day01.exceptions.checked_exception;
 
 public class ClassNotFoundExceptionTestCase {
 

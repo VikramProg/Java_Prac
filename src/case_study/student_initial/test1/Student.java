@@ -1,4 +1,4 @@
-package student_initial.test;
+package case_study.student_initial.test1;
 
 public class Student {
 

@@ -1,4 +1,4 @@
-package day01.collections;
+package day01.collections.array_list;
 
 public class Contact {
     private final long number;

@@ -1,4 +1,4 @@
-package day01.collections;
+package day01.collections.array_list;
 
 public class MyContacts {
     public static void main(String[] args) {

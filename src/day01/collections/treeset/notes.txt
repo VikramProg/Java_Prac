@@ -1,0 +1,23 @@
+------------------------------TreeSet in Java-----------------------
+> TreeSet is one of the most important implementations of the SortedSet interface in Java that uses a Tree for storage.
+> The ordering of the elements is maintained by a set using their natural ordering whether an explicit comparator is provided.
+> This must be consistent with equals if it is to correctly implement the Set interface.
+> It can also be ordered by a Comparator provided at set creation time, depending on which constructor is used.
+> The TreeSet implements a NavigableSet interface by inheriting AbstractSet class.
+
+> How does TreeSet work Internally?
+
+-> TreeSet is basically an implementation of a self-balancing binary search tree like a Red-Black Tree.
+-> Therefore operations like add, remove, and search takes O(log(N)) time.
+-> The reason is that in a self-balancing tree, it is made sure that the height of the tree is always O(log(N)) for all the operations.
+-> Therefore, this is considered as one of the most efficient data structures in order to store the huge sorted data and perform operations on it.
+-> However, operations like printing N elements in the sorted order take O(N) time.
+
+-> Now let us discuss Synchronized TreeSet prior moving ahead.
+-> The implementation of a TreeSet is not synchronized. This means that if multiple threads access a tree set concurrently, and at least one of the threads modifies the set, it must be synchronized externally.
+-> This is typically accomplished by synchronizing some object that naturally encapsulates the set.
+-> If no such object exists, the set should be “wrapped” using the Collections.synchronizedSortedSet method.
+-> This is best done at the creation time, to prevent accidental unsynchronized access to the set. It can be achieved as shown below as follows:
+
+      TreeSet ts = new TreeSet();
+      Set syncSet = Collections.synchronziedSet(ts);
